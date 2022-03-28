@@ -1,0 +1,1083 @@
+@charset "UTF-8";
+@media (max-width: 600px) {
+  .header, .background-header {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.background-header {
+  background: #ccc;
+  min-height: 60px;
+}
+
+.center {
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+}
+
+.background-header, .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+.header__list li {
+  padding: 0 10px;
+  min-height: 60px;
+}
+.header__list li:hover {
+  cursor: pointer;
+  background-color: #999;
+}
+.header__anchor {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.background-body {
+  background: #ccc url("../img/background.jpg") center;
+  background-size: cover;
+}
+
+.lada-flex, .moskvich-flex, .volga-flex,
+.zil-flex, .zaz-uaz-flex, .imported-flex, .police-flex,
+.race-flex, .truck-flex, .bus-flex, .fire-flex, .plane-flex {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vaz-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.vaz-card:hover {
+  transform: scale(1.02);
+}
+.vaz-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.vaz-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.vaz-card:nth-of-type(1) {
+  background: #fff url("../img/ваз-2101.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(2) {
+  background: #fff url("../img/ваз-21011.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(3) {
+  background: #fff url("../img/ваз-2102.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(4) {
+  background: #fff url("../img/ваз-2103.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(5) {
+  background: #fff url("../img/ваз-2104.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(6) {
+  background: #fff url("../img/ваз-2105.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(7) {
+  background: #fff url("../img/ваз-2106.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(8) {
+  background: #fff url("../img/ваз-2107.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(9) {
+  background: #fff url("../img/ваз-2108.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(10) {
+  background: #fff url("../img/ваз-2109.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(11) {
+  background: #fff url("../img/ваз-21099.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(12) {
+  background: #fff url("../img/ваз-2121.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(12) .vaz-card__name {
+  font-size: 2rem;
+}
+.vaz-card:nth-of-type(13) {
+  background: #fff url("../img/ваз-1111.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(13) .vaz-card__name {
+  font-size: 2rem;
+}
+.vaz-card:nth-of-type(14) {
+  background: #fff url("../img/ваз-2114.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(15) {
+  background: #fff url("../img/ваз-2115.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(16) {
+  background: #fff url("../img/ваз-2112.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(17) {
+  background: #fff url("../img/ваз-1118.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(17) .vaz-card__name {
+  font-size: 2rem;
+}
+.vaz-card:nth-of-type(18) {
+  background: #fff url("../img/лада-веста-св-кросс.JPG") center;
+  background-size: contain;
+}
+.vaz-card:nth-of-type(18) .vaz-card__name {
+  font-size: 2rem;
+}
+
+.moskvich-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.moskvich-card:hover {
+  transform: scale(1.02);
+}
+.moskvich-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.moskvich-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.moskvich-card:nth-of-type(1) {
+  background: #fff url("../img/москвич-400.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(2) {
+  background: #fff url("../img/москвич-400-420-ОРУД.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(2) .moskvich-card__name {
+  font-size: 2.2rem;
+}
+.moskvich-card:nth-of-type(3) {
+  background: #fff url("../img/москвич-402.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(4) {
+  background: #fff url("../img/москвич-403.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(5) {
+  background: #fff url("../img/москвич-410.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(6) {
+  background: #fff url("../img/москвич-423Н.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(7) {
+  background: #fff url("../img/москвич-408Э.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(8) {
+  background: #fff url("../img/москвич-412.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(9) {
+  background: #fff url("../img/москвич-408.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(10) {
+  background: #fff url("../img/москвич-434.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(11) {
+  background: #fff url("../img/иж-2715.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(12) {
+  background: #fff url("../img/иж-2715-01.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(13) {
+  background: #fff url("../img/москвич-427.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(14) {
+  background: #fff url("../img/москвич-21251.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(15) {
+  background: #fff url("../img/москвич-2140.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(16) {
+  background: #fff url("../img/москвич-2141.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(17) {
+  background: #fff url("../img/москвич-2335.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(18) {
+  background: #fff url("../img/иж-2126.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(19) {
+  background: #fff url("../img/москвич-с-1.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(20) {
+  background: #fff url("../img/москвич-2143.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(20) .moskvich-card__name {
+  font-size: 2rem;
+}
+.moskvich-card:nth-of-type(21) {
+  background: #fff url("../img/москвич-2144.JPG") center;
+  background-size: contain;
+}
+.moskvich-card:nth-of-type(21) .moskvich-card__name {
+  font-size: 2rem;
+}
+
+.volga-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.volga-card:hover {
+  transform: scale(1.02);
+}
+.volga-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.volga-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.volga-card:nth-of-type(1) {
+  background: #fff url("../img/газ-м-1.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(2) {
+  background: #fff url("../img/газ-м415.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(3) {
+  background: #fff url("../img/газ-11-73.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(4) {
+  background: #fff url("../img/газ-м20в.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(4) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(5) {
+  background: #fff url("../img/газ-м72.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(5) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(6) {
+  background: #fff url("../img/газ-21и.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(6) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(7) {
+  background: #fff url("../img/газ-21р.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(7) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(8) {
+  background: #fff url("../img/газ-22.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(8) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(9) {
+  background: #fff url("../img/газ-24.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(9) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(10) {
+  background: #fff url("../img/газ-24-02.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(10) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(11) {
+  background: #fff url("../img/газ-24-02-э.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(11) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(12) {
+  background: #fff url("../img/газ-24-95.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(12) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(13) {
+  background: #fff url("../img/газ-24-10.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(13) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(14) {
+  background: #fff url("../img/газ-24-12.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(14) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(15) {
+  background: #fff url("../img/газ-3102.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(15) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(16) {
+  background: #fff url("../img/газ-3105.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(16) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(17) {
+  background: #fff url("../img/газ-3110.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(17) .volga-card__name {
+  font-size: 2rem;
+}
+.volga-card:nth-of-type(18) {
+  background: #fff url("../img/газ-3111.JPG") center;
+  background-size: contain;
+}
+.volga-card:nth-of-type(18) .volga-card__name {
+  font-size: 2rem;
+}
+
+.zil-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.zil-card:hover {
+  transform: scale(1.02);
+}
+.zil-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.zil-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.zil-card:nth-of-type(1) {
+  background: #fff url("../img/зис-101.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(2) {
+  background: #fff url("../img/зис-102.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(3) {
+  background: #fff url("../img/зис-110.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(4) {
+  background: #fff url("../img/газ-13.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(5) {
+  background: #fff url("../img/газ-14.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(6) {
+  background: #fff url("../img/зил-111.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(7) {
+  background: #fff url("../img/зил-111гд.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(8) {
+  background: #fff url("../img/зил-114.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(9) {
+  background: #fff url("../img/зил-41045.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(10) {
+  background: #fff url("../img/зил-41047.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(11) {
+  background: #fff url("../img/зил-4102.jpg") center;
+  background-size: contain;
+}
+.zil-card:nth-of-type(12) {
+  background: #fff url("../img/aurus-senat.jpg") center;
+  background-size: contain;
+}
+
+.zaz-uaz-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.zaz-uaz-card:hover {
+  transform: scale(1.02);
+}
+.zaz-uaz-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.zaz-uaz-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.zaz-uaz-card:nth-of-type(1) {
+  background: #fff url("../img/ким-10-50.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(2) {
+  background: #fff url("../img/ким-10-51.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(3) {
+  background: #fff url("../img/смз-с3а.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(4) {
+  background: #fff url("../img/смз-с3д.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(5) {
+  background: #fff url("../img/нами-050.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(5) .zaz-uaz-card__name {
+  font-size: 2rem;
+}
+.zaz-uaz-card:nth-of-type(6) {
+  background: #fff url("../img/заз-965.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(7) {
+  background: #fff url("../img/заз-968а.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(8) {
+  background: #fff url("../img/заз-968м.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(9) {
+  background: #fff url("../img/заз-1102.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(9) .zaz-uaz-card__name {
+  font-size: 2rem;
+}
+.zaz-uaz-card:nth-of-type(10) {
+  background: #fff url("../img/луаз-969.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(10) .zaz-uaz-card__name {
+  font-size: 2rem;
+}
+.zaz-uaz-card:nth-of-type(11) {
+  background: #fff url("../img/луаз-969м.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(11) .zaz-uaz-card__name {
+  font-size: 2rem;
+}
+.zaz-uaz-card:nth-of-type(12) {
+  background: #fff url("../img/газ-69.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(13) {
+  background: #fff url("../img/уаз-469.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(14) {
+  background: #fff url("../img/уаз-452.jpg") center;
+  background-size: contain;
+}
+.zaz-uaz-card:nth-of-type(15) {
+  background: #fff url("../img/уаз-хантер.jpg") center;
+  background-size: contain;
+}
+
+.imported-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.imported-card:hover {
+  transform: scale(1.02);
+}
+.imported-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.imported-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.imported-card:nth-of-type(1) {
+  background: #fff url("../img/mini-cooper.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(2) {
+  background: #fff url("../img/mini-van.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(3) {
+  background: #fff url("../img/alfa-romeo-147.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(4) {
+  background: #fff url("../img/volkswagen-new-beetle.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(4) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(5) {
+  background: #fff url("../img/volkswagen-golf.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(5) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(6) {
+  background: #fff url("../img/volkswagen-polo.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(6) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(7) {
+  background: #fff url("../img/mini-cooper-new.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(8) {
+  background: #fff url("../img/ford-ka.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(9) {
+  background: #fff url("../img/jaguar-e-type.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(10) {
+  background: #fff url("../img/mercedes-300sl.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(10) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(11) {
+  background: #fff url("../img/mercedes-500sl.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(11) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(12) {
+  background: #fff url("../img/mercedes-203.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(13) {
+  background: #fff url("../img/mercedes-463.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(14) {
+  background: #fff url("../img/mercedes-clk-gtr.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(14) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(15) {
+  background: #fff url("../img/porsche-cayenne.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(15) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(16) {
+  background: #fff url("../img/hummer-2.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(17) {
+  background: #fff url("../img/lamborghini-countach.jpg") center;
+  background-size: contain;
+}
+.imported-card:nth-of-type(17) .imported-card__name {
+  font-size: 2rem;
+}
+.imported-card:nth-of-type(18) {
+  background: #fff url("../img/lincoln-towncar-limo.jpg") center;
+  background-size: cover;
+}
+.imported-card:nth-of-type(18) .imported-card__name {
+  font-size: 2rem;
+}
+
+.police-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.police-card:hover {
+  transform: scale(1.02);
+}
+.police-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.police-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.police-card:nth-of-type(1) {
+  background: #fff url("../img/peugeot-404.JPG") center;
+  background-size: contain;
+}
+.police-card:nth-of-type(2) {
+  background: #fff url("../img/jaguar-mk-2.JPG") center;
+  background-size: contain;
+}
+.police-card:nth-of-type(3) {
+  background: #fff url("../img/subaru-imprexa-gendarme.JPG") center;
+  background-size: contain;
+}
+.police-card:nth-of-type(3) .police-card__name {
+  font-size: 2rem;
+}
+.police-card:nth-of-type(4) {
+  background: #fff url("../img/fiat-238.JPG") center;
+  background-size: contain;
+}
+
+.race-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.race-card:hover {
+  transform: scale(1.02);
+}
+.race-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.race-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.race-card:nth-of-type(1) {
+  background: #fff url("../img/mitsubishi-evolution-6-race.JPG") center;
+  background-size: contain;
+}
+.race-card:nth-of-type(1) .race-card__name {
+  font-size: 2rem;
+}
+.race-card:nth-of-type(2) {
+  background: #fff url("../img/mclaren-mp-1988.JPG") center;
+  background-size: contain;
+}
+.race-card:nth-of-type(3) {
+  background: #fff url("../img/ferrari-2002.JPG") center;
+  background-size: contain;
+}
+
+.truck-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.truck-card:hover {
+  transform: scale(1.02);
+}
+.truck-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.truck-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.truck-card:nth-of-type(1) {
+  background: #fff url("../img/амо-ф-15.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(2) {
+  background: #fff url("../img/газ-аа.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(3) {
+  background: #fff url("../img/газ-55.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(4) {
+  background: #fff url("../img/каз-601.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(5) {
+  background: #fff url("../img/газ-51а.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(6) {
+  background: #fff url("../img/газ-63.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(7) {
+  background: #fff url("../img/зил-157.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(8) {
+  background: #fff url("../img/каз-608в.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(9) {
+  background: #fff url("../img/маз-503а.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(10) {
+  background: #fff url("../img/маз-6422.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(11) {
+  background: #fff url("../img/зил-ммз-555.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(11) .truck-card__name {
+  font-size: 2rem;
+}
+.truck-card:nth-of-type(12) {
+  background: #fff url("../img/зил-4333.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(13) {
+  background: #fff url("../img/зил-5301.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(13) .truck-card__name {
+  font-size: 2rem;
+}
+.truck-card:nth-of-type(14) {
+  background: #fff url("../img/газ-3302.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(14) .truck-card__name {
+  font-size: 2rem;
+}
+.truck-card:nth-of-type(15) {
+  background: #fff url("../img/газ-3307.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(16) {
+  background: #fff url("../img/урал-44202.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(17) {
+  background: #fff url("../img/краз-256б.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(18) {
+  background: #fff url("../img/краз-6510.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(19) {
+  background: #fff url("../img/камаз-4310.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(20) {
+  background: #fff url("../img/камаз-44108.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(21) {
+  background: #fff url("../img/камаз-5490.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(22) {
+  background: #fff url("../img/камаз-49252.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(23) {
+  background: #fff url("../img/камаз-43509.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(24) {
+  background: #fff url("../img/mercedes-unimog.JPG") center;
+  background-size: contain;
+}
+.truck-card:nth-of-type(24) .truck-card__name {
+  font-size: 2rem;
+}
+.truck-card:nth-of-type(25) {
+  background: #fff url("../img/к-700.JPG") center;
+  background-size: contain;
+}
+
+.bus-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.bus-card:hover {
+  transform: scale(1.02);
+}
+.bus-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.bus-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.bus-card:nth-of-type(1) {
+  background: #fff url("../img/zuk-a-07.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(2) {
+  background: #fff url("../img/раф-977дм.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(3) {
+  background: #fff url("../img/раф-977д.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(4) {
+  background: #fff url("../img/раф-2203.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(5) {
+  background: #fff url("../img/газ-2752.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(5) .bus-card__name {
+  font-size: 2rem;
+}
+.bus-card:nth-of-type(6) {
+  background: #fff url("../img/газ-3221.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(6) .bus-card__name {
+  font-size: 2rem;
+}
+.bus-card:nth-of-type(7) {
+  background: #fff url("../img/renault-trafic.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(7) .bus-card__name {
+  font-size: 2rem;
+}
+.bus-card:nth-of-type(8) {
+  background: #fff url("../img/паз-672.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(9) {
+  background: #fff url("../img/паз-3205.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(10) {
+  background: #fff url("../img/лиаз-677м.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(11) {
+  background: #fff url("../img/икарус-280.JPG") center;
+  background-size: contain;
+}
+.bus-card:nth-of-type(12) {
+  background: #fff url("../img/газ-51-царм.JPG") center;
+  background-size: contain;
+}
+
+.fire-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.fire-card:hover {
+  transform: scale(1.02);
+}
+.fire-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.fire-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.fire-card:nth-of-type(1) {
+  background: #fff url("../img/зис-11-пмз-1.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(2) {
+  background: #fff url("../img/mercedes-l4500f.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(2) .fire-card__name {
+  font-size: 2rem;
+}
+.fire-card:nth-of-type(3) {
+  background: #fff url("../img/маз-205-ац-30.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(3) .fire-card__name {
+  font-size: 2rem;
+}
+.fire-card:nth-of-type(4) {
+  background: #fff url("../img/зил-157-ар-2.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(5) {
+  background: #fff url("../img/зил-131-пнс-110.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(5) .fire-card__name {
+  font-size: 2rem;
+}
+.fire-card:nth-of-type(6) {
+  background: #fff url("../img/зил-131-умп-350.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(6) .fire-card__name {
+  font-size: 2rem;
+}
+.fire-card:nth-of-type(7) {
+  background: #fff url("../img/зил-130-ап-3.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(8) {
+  background: #fff url("../img/камаз-43118.JPG") center;
+  background-size: contain;
+}
+.fire-card:nth-of-type(8) .fire-card__name {
+  font-size: 2rem;
+}
+
+.plane-card {
+  width: 380px;
+  height: 380px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+.plane-card:hover {
+  transform: scale(1.02);
+}
+.plane-card__name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #555;
+}
+.plane-card__description {
+  padding: 260px 5px 5px 7px;
+}
+.plane-card:nth-of-type(1) {
+  background: #fff url("../img/як-3.JPG") center;
+  background-size: contain;
+}
+.plane-card:nth-of-type(2) {
+  background: #fff url("../img/ju-87.JPG") center;
+  background-size: contain;
+}
+.plane-card:nth-of-type(3) {
+  background: #fff url("../img/mitsubishi-a6m2a.JPG") center;
+  background-size: contain;
+}
+.plane-card:nth-of-type(3) .plane-card__name {
+  font-size: 2rem;
+}
+.plane-card:nth-of-type(4) {
+  background: #fff url("../img/vought-corsair.JPG") center;
+  background-size: contain;
+}
+.plane-card:nth-of-type(4) .plane-card__name {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
